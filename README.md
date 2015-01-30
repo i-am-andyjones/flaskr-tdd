@@ -988,9 +988,9 @@ if __name__ == '__main__':
 
 Notice the changes in the config at the top, as well the means in which we're now accessing and manipulating the database in each function - via SQLAlchemy instead of vanilla SQL.
 
-Run `create_db.py` to create the initial database:
+Run `db_create.py` to create the initial database:
 ```sh
-$ python create_db.py
+$ python db_create.py
 ```
 
 #### index.html
